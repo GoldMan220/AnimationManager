@@ -6,7 +6,6 @@ import android.view.View;
 
 public class AnimationManage {
 
-
     /**自定义动画*/
     public static void setCustomAnimator(View view, float[] translationX, float[] translationY, float[] scaleX, float[] scaleY, float[] alpha, float[] rotation, long during, int loop) {
         ObjectAnimator tX = ObjectAnimator.ofFloat(view, "translationX", translationX);
